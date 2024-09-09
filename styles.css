@@ -10,7 +10,28 @@ body {
 main {
     padding: 16px;
 }
+
 /* -------------Main------------------ */
+/* ---------------------------------- */
+
+
+/* ---------------------------------- */
+/* -------------Landing-------------- */
+
+.image-container {
+    width: 60%;
+    margin:  auto;
+    padding-right: 50px;
+    border: 2px solid #4e4944;
+    opacity: 78%;
+    box-shadow: 0 0 40px rgba(254, 233, 40, 0.2);
+}
+
+.image-container img {
+    width: 100%;
+}
+
+/* -------------Landing--------------- */
 /* ---------------------------------- */
 
 
@@ -145,6 +166,7 @@ h2 {
     left: 2px;
     box-shadow: 15px 15px #f8a408b3;
 }
+
 /* -------------Grid---------------- */
 /*-----------------------------------*/
 
@@ -183,6 +205,7 @@ tbody tr:nth-child(even) {
 tbody tr:nth-child(odd) {
     background-color: #fc09dcca;
 }
+
 /* -------------Table---------------- */
 /* --------------------------------- */
 
@@ -193,6 +216,14 @@ footer {
     padding-top: 24px;
     padding-bottom: 24px;
     padding-left: 16px;
+    padding-right: 16px;
+    text-align: left;
+
     color: #111010;
     background-color: #ffd900b3;
+    opacity: 80%;
+    font-family: Griffy, cursive;
+    font-weight: 250;
+    font-size: smaller;
+    border-top: 2px solid rgb(171, 26, 161);
 }
