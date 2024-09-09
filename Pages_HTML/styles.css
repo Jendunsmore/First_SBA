@@ -1,0 +1,82 @@
+
+
+body {
+    background-color: #110015;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #b8d14b;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: #ff9b3e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #75108b;
+}
+
+.active {
+    text-decoration-color: #75108b;
+}
+
+/* Dont mess with anything above this line*/
+
+.container {
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    grid-template-rows: min-content 1fr min-content;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-content: stretch;
+    align-items: stretch;
+    grid-template-areas:
+        ". ."
+        ". ."
+        ". .";
+}
+
+
+@font-face {
+    font-family: 'nightmareSwirls';
+    src: url('/Users/jenniferdunsmore/Desktop/Per Scholas/nightmareSwirls.ttf');
+    /* Locate the .ttf file within your directory*/
+}
+
+.card-body {
+    border: 5px solid black;
+    width: 300px;
+    background-color: #333;
+    color: #ff74d4;
+    font-family: 'nightmareSwirls';
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-body p,
+.card-body h1 {
+    margin: 8px;
+    text-align: center;
+    text-wrap: wrap;
+    font-family: 'nightmareSwirls';
+}
