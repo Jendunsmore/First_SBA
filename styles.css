@@ -99,6 +99,7 @@ img {
     width: 100%;
 }
 
+/* .......Landing page/title/Spooky Little Developer's Monster Creations .......*/
 h1 {
     text-align: center;
     color: #e30cd4;
@@ -107,6 +108,7 @@ h1 {
     font-weight: 100;
 }
 
+/* ...............details/about/This is Halloween ...............................*/
 h2 {
     text-align: center;
     color: #6de30c;
@@ -115,6 +117,7 @@ h2 {
     font-weight: 100;
 }
 
+/* ...............details/about/grid-container...............................*/
 .grid-container {
     display: grid;
     margin: 15px;
@@ -122,6 +125,7 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+/* ..........details/about/grid-items/animation............................... */
 .grid-item {
     transition: all 0.01s linear;
     margin: 35px;
@@ -132,7 +136,7 @@ h2 {
     position: relative;
 }
 
-/* ..........This is Halloween text boxgrid-item1......... */
+/* ..........detailsThis is Halloween grid-item1...............................*/
 .grid-item1 {
     transition: all 0.01s linear;
     margin: 35px;
@@ -144,7 +148,7 @@ h2 {
     color: #0aa021;
 }
 
-/* ..........grid-item2, box shadow & forms............ */
+/* ..........details/about/grid-item2, box & forms................................*/
 .grid-item2 {
     transition: all 0.01s linear;
     margin: 35px;
@@ -156,7 +160,7 @@ h2 {
     color: #ee2bc0;
 }
 
-/* ..........grid hover......... */
+/* ............grid hover- details/about & index...................................*/
 .grid-item:hover {
     top: 8px;
     left: 2px;
@@ -226,7 +230,6 @@ footer {
     padding-left: 16px;
     padding-right: 16px;
     text-align: left;
-
     color: #111010;
     background-color: #ffd900b3;
     opacity: 95%;
